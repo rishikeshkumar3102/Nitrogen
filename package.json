@@ -1,5 +1,5 @@
 {
-  "name": "Nitrogen",
+  "name": "nitrogen",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts"
