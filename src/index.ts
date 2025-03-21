@@ -1,7 +1,8 @@
 import { Hono } from "hono";
 import { serve } from "@hono/node-server";
-import prisma from "./prisma";
+import { PrismaClient } from "@prisma/client";
 
+const prisma = new PrismaClient();
 const app = new Hono();
 
 app.post("/customers", async (c) => {
