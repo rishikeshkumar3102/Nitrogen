@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { serve } from "@hono/node-server";
-import prisma from "./prisma.js";
+import prisma from "./prisma";
 
 const app = new Hono();
 
